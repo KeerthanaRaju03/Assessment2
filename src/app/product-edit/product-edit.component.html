@@ -1,0 +1,22 @@
+<div class="container custom-container">
+    <div class="col-md-12">
+        <h3 class="mb-3 text-center">Update Product</h3>
+        <form [formGroup]="productData">
+        <div class="md-3">
+            <input type="text" class="form-control" placeholder="Name" formControlName="name"/>
+        </div>
+        <div class="md-3">
+            <input type="text" class="form-control" placeholder="Price" formControlName="price"/>
+        </div>
+        <div class="md-3">
+            <input type="text" class="form-control" placeholder="Description" formControlName="description"/>
+        </div>
+        <div class="md-3">
+            <input type="text" class="form-control" placeholder="Image" formControlName="img"/>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-success btn-lg btn-block" (click)="updateProduct()">Update Product</button>
+        </div>
+    </form>
+    </div>
+</div>

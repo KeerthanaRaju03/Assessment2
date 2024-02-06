@@ -1,0 +1,56 @@
+<div class="container custom-container-2 mt-5">
+    <div class="no-data text-center" *ngIf="Product.length==0">
+    <p>There is no product addded yet!</p>
+    <button class="btn btn-outline-primary" routerLink="/create-product">
+        Add Product
+    </button>
+</div>
+<div *ngIf="Product.length!==0">
+    <h3 class="mb-3 text-center" id="title1">Product List</h3>
+    <div class="container" style="margin-left: 450px;width:100px;" >
+        <form [formGroup]="searchForm">
+            <div class="input-group">
+                <div class="form-outline" style="height: 40px;" data-mdb-input-init>
+                    <input type="text" formControlName="searchText" (keyup)="onSearchTextChange($event)" placeholder="Search...">
+                  <!-- <label class="form-label" for="form1">Search</label> -->
+                </div>
+                <!-- <button type="button" class="btn btn-primary" data-mdb-ripple-init>
+                  <i class="fas fa-search"></i>
+                </button> -->
+              </div>
+        </form>
+        
+    </div>
+    <div class="form-group" id="line">
+        <button class="btn btn-success " routerLink="/product-create">Create Product</button>
+    </div>
+     <br/>
+    <div class="col-md-12">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Product Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">description</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let product of Product">
+                    <td>{{product.id}}</td>
+                    <td>{{product.name}}</td>
+                    <td><img src="{{product.img}}" alt="images"/></td>
+                    <td>{{product.price}}</td>
+                    <td>{{product.description}}</td>
+                    <td>
+                        <span class="edit btn btn-outline-primary me-2" routerLink="/product-edit/{{product.id}}">Edit</span>
+                        <span class="delete edit btn-sm btn-outline-danger" (click)="deleteProduct(product.id)">Delete</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
