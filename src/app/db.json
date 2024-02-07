@@ -2,31 +2,38 @@
   "products": [
     {
       "id": "1",
-      "name": "IPhone 14 Pro",
+      "name": "IPhone pro",
       "img": "https://phonebox.com.mt/wp-content/uploads/2022/11/0021403_iphone-14-pro.jpeg",
       "price": "64000",
       "description": "The phone comes with a 120 Hz refresh rate 6.67-inch touchscreen display offering a resolution of 1080x2400 pixels at a pixel density of 395 pixels per inch (ppi) and an aspect ratio of 20:9. Redmi Note 11 Pro is powered by an octa-core MediaTek Helio G96 processor."
     },
     {
       "id": "2",
-      "name": "Redmi Note 11 Pro",
+      "name": "Redmi note 1 ",
       "img": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1695352069499/0b19ef2156bbe072eb912066d6c944ab.png",
       "price": "44000",
       "description": "The phone comes with a 120 Hz refresh rate 6.67-inch touchscreen display offering a resolution of 1080x2400 pixels at a pixel density of 395 pixels per inch (ppi) and an aspect ratio of 20:9. Redmi Note 11 Pro is powered by an octa-core MediaTek Helio G96 processor."
     },
     {
       "id": "3",
-      "name": "Redmi Note 10 Pro",
+      "name": "Redmi note 10 pro",
       "img": "https://images.unsplash.com/photo-1589492477829-5e65395b66cc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "price": "24000",
       "description": "The phone comes with a 120 Hz refresh rate 6.67-inch touchscreen display offering a resolution of 1080x2400 pixels at a pixel density of 395 pixels per inch (ppi) and an aspect ratio of 20:9. Redmi Note 11 Pro is powered by an octa-core MediaTek Helio G96 processor."
     },
     {
       "id": "4",
-      "name": "Redmi Note 10 Pro",
+      "name": "Redmi note 12 pro",
       "img": "../../assets/images/product1.jpg",
       "price": "44000",
       "description": "The phone comes with a 120 Hz refresh rate 6.67-inch touchscreen display offering a resolution of 1080x2400 pixels at a pixel density of 395 pixels per inch (ppi) and an aspect ratio of 20:9. Redmi Note 11 Pro is powered by an octa-core MediaTek Helio G96 processor."
+    },
+    {
+      "id": "35a6",
+      "name": "Redmi note10 pro",
+      "img": "https://th.bing.com/th/id/OIP.PxNADFuECPii0APvvZZdowHaHa?rs=1&pid=ImgDetMain",
+      "price": 60000,
+      "description": "REDMI Note 10 Pro (Dark Night, 128 GB) features and specifications include 6 GB RAM, 128 GB ROM, 5020 mAh battery, 64 MP back camera and 16 MP front camera. Compare Note …  Color: Dark Night"
     }
   ]
 }

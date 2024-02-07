@@ -36,7 +36,7 @@ export class ProductListComponent {
     .pipe(debounceTime(200))
     .subscribe(()=>{
       if(this.searchForm.controls['searchText'].value.length>2){
-        const searchedBooks=this.Product?.filter((b:any)=>b.name.toLowerCase().startsWith(event.target.value))
+        const searchedBooks=this.Product?.filter((b:any)=>b.name.toLowerCase().includes(event.target.value))
         this.Product=searchedBooks;
       }
       if(this.searchForm.controls['searchText'].value.length==0){

@@ -45,8 +45,10 @@
                     <td>{{product.price}}</td>
                     <td>{{product.description}}</td>
                     <td>
-                        <span class="edit btn btn-outline-primary me-2" routerLink="/product-edit/{{product.id}}">Edit</span>
-                        <span class="delete edit btn-sm btn-outline-danger" (click)="deleteProduct(product.id)">Delete</span>
+                        <br/><br/>
+                        <span class="edit btn btn-outline-primary me-2" style="height: 35px;width: 70px;" routerLink="/product-edit/{{product.id}}">Edit</span>
+                        <br/><br/>
+                        <span class="delete edit btn-sm btn-outline-danger" (click)="deleteProduct(product.id)"><button class="edit btn btn-outline-primary me-2" style="height: 35px;width: 70px;text-align: center;">Delete</button></span>
                     </td>
                 </tr>
             </tbody>
